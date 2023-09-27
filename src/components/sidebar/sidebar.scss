@@ -29,6 +29,14 @@
             padding: 0 $mobileSpacing;
             margin-bottom: $mobileSpacing;
         }
+    .logo {
+        color: orange;
+        font-size: 40px;
+    }
+    .logoname {
+        color: blue;
+        padding-left: 10px;
+    }
 
         img {
             --size: 55px;
@@ -58,7 +66,7 @@
         &__item {
             @include flex(center, flex-start);
             position: relative;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
             padding-left: 20%;
             transition: color 0.3s ease-in-out;
 

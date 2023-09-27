@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { PostsContextProvider } from './context/PostsContext';
+import { AuthContextProvider } from './context/AuthContext';
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+   <AuthContextProvider>
+    <PostsContextProvider>
+    <App />
+    </PostsContextProvider>
+   </AuthContextProvider>
+    
+ 
+
+
+
+, document.getElementById("root"));

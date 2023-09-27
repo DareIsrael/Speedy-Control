@@ -1,0 +1,83 @@
+.table-header {
+    background-color: orange;
+    color: white;
+    
+}
+
+.table-header2 td {
+    padding-right: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.quick-offer h1 {
+    margin-bottom: 30px;
+}
+
+
+
+table, th, td {
+    border:1px solid black;
+    font-size: 12px;
+    
+}
+
+.admin_post input{
+  margin: 30px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+
+}
+.admin_post button {
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.admin_post button:hover {
+background-color: black;
+color: white;
+}
+.admin_post img {
+    width: 400px;
+
+}
+.admin_post h1 {
+    text-align: center;
+    margin-top: 40px;
+    background-color: orange;
+    font-size: 20px;
+}
+
+.posted {
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    position: relative;
+    /* justify-content: space-around; */
+}
+.posted h4 {
+    margin: 30px 80px ;
+    
+
+}
+
+.posted img {
+    width: 70px;
+    height: 80px;
+    
+}
+.posted button {
+    width: 10px;
+    height: 10px;
+    padding-right: 55px;
+    padding-bottom: 25px;
+    position: absolute;
+    right: 30px;
+    margin-top: 17px;
+    background-color: white;
+    border-style: groove;
+}

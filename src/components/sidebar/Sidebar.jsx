@@ -3,6 +3,8 @@ import './sidebar.scss'
 import { Link, useLocation } from 'react-router-dom'
 import { images } from '../../constants'
 import sidebarNav from '../../configs/sidebarNav'
+import { Icon } from '@iconify/react';
+
 
 const Sidebar = () => {
     const [activeIndex, setActiveIndex] = useState(0)
@@ -26,7 +28,10 @@ const Sidebar = () => {
     return (
         <div className='sidebar'>
             <div className="sidebar__logo">
-                <img src={images.logo} alt="" />
+                {/* <img src={images.logo} alt="" /> */}
+                <a href="/"><Icon icon="subway:world" className="logo" /></a>
+                 <span className="logoname">SPEEDY-SPELL</span>
+                <a>     <span></span></a>
                 <div className="sidebar-close" onClick={closeSidebar}>
                     <i className='bx bx-x'></i>
                 </div>
