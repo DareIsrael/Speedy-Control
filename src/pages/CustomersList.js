@@ -12,7 +12,7 @@ function CustomersList () {
        useEffect (() => {
           const fetchCustomers = async () => {
   
-              const response = await fetch ('/api/user/signup')
+              const response = await fetch ('https://speedyspell-api.onrender.com/api/user/signup')
               const json = await response.json()
   
               if (response.ok) {

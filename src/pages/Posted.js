@@ -6,7 +6,7 @@ function Posted ( { post } ) {
    const { dispatch } = usePostsContext()
 
     const deleteClick = async () => {
-        const response = await fetch ("/api/post/" + post._id, {
+        const response = await fetch ("https://speedyspell-api.onrender.com/api/post/" + post._id, {
             method: 'DELETE'
 
         })

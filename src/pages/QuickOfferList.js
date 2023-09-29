@@ -13,7 +13,7 @@ function QuickOfferList () {
        useEffect (() => {
           const fetchCargos = async () => {
   
-              const response = await fetch ('/api/cargo')
+              const response = await fetch ('https://speedyspell-api.onrender.com/api/cargo')
               const json = await response.json()
   
               if (response.ok) {

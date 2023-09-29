@@ -12,7 +12,7 @@ function CourierList () {
        useEffect (() => {
           const fetchCouriers = async () => {
   
-              const response = await fetch ('/api/courier')
+              const response = await fetch ('https://speedyspell-api.onrender.com/api/courier')
               const json = await response.json()
   
               if (response.ok) {

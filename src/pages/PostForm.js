@@ -75,7 +75,7 @@ function PostForm () {
   
         const post = {image, name, price }
   
-        const response = await fetch ("/api/post", {
+        const response = await fetch ("https://speedyspell-api.onrender.com/api/post", {
             method: 'POST',
             body: JSON.stringify(post),
             headers: {

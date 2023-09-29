@@ -10,7 +10,7 @@ function TruckList () {
        useEffect (() => {
           const fetchTrucks = async () => {
   
-              const response = await fetch ('/api/truck')
+              const response = await fetch ('https://speedyspell-api.onrender.com/api/truck')
               const json = await response.json()
   
               if (response.ok) {

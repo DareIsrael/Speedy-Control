@@ -19,7 +19,7 @@ function Post () {
      useEffect (() => {
         const fetchPosts = async () => {
  
-            const response = await fetch ('http://localhost:4000/api/post')
+            const response = await fetch ('https://speedyspell-api.onrender.com/api/post')
             const json = await response.json()
  
             if (response.ok) {

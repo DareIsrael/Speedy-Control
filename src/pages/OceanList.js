@@ -10,7 +10,7 @@ function OceanList () {
        useEffect (() => {
           const fetchOceans = async () => {
   
-              const response = await fetch ('/api/ocean')
+              const response = await fetch ('https://speedyspell-api.onrender.com/api/ocean')
               const json = await response.json()
   
               if (response.ok) {

@@ -10,7 +10,7 @@ function AirList () {
        useEffect (() => {
           const fetchAirs = async () => {
   
-              const response = await fetch ('/api/air')
+              const response = await fetch ('https://speedyspell-api.onrender.com/api/air')
               const json = await response.json()
   
               if (response.ok) {
